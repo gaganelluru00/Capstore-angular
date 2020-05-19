@@ -106,7 +106,7 @@ closeNav() {
 }
 
 productPage(id){
-
+localStorage.setItem("product",id);
 this.route.navigate(['productpage']);
 }
 
